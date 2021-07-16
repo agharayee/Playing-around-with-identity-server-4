@@ -17,14 +17,14 @@ namespace IDS
             new TestUser
             {
                 SubjectId = "1144",
-                Username = "mukesh",
-                Password = "mukesh",
+                Username = "Agharaye",
+                Password = "Emmanuel",
                 Claims =
                 {
-                    new Claim(JwtClaimTypes.Name, "Mukesh Murugan"),
-                    new Claim(JwtClaimTypes.GivenName, "Mukesh"),
-                    new Claim(JwtClaimTypes.FamilyName, "Murugan"),
-                    new Claim(JwtClaimTypes.WebSite, "http://codewithmukesh.com"),
+                    new Claim(JwtClaimTypes.Name, "Emmanuel Agharaye"),
+                    new Claim(JwtClaimTypes.GivenName, "Emmanuel"),
+                    new Claim(JwtClaimTypes.FamilyName, "Agharaye"),
+                    new Claim(JwtClaimTypes.WebSite, "http://teamaduaba.azurewebsites.net"),
                 }
             }
         };
